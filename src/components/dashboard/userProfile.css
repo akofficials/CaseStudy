@@ -1,0 +1,56 @@
+.profile-container {
+  padding: 25px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile-container h2,
+.profile-container h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.profile-section label {
+  font-weight: bold;
+  color: #444;
+}
+
+.profile-section input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-btn,
+.save-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
